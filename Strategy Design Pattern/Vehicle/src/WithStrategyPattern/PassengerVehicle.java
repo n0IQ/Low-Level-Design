@@ -3,8 +3,7 @@ package WithStrategyPattern;
 import WithStrategyPattern.Strategy.NormalDriveStrategy;
 
 public class PassengerVehicle extends Vehicle {
-    public PassengerVehicle() {
+    public PassengerVehicle(){
         super(new NormalDriveStrategy());
     }
-
 }

@@ -5,8 +5,8 @@ import WithStrategyPattern.Strategy.DriveStrategy;
 public class Vehicle {
     DriveStrategy driveObject;
 
-    Vehicle(DriveStrategy driveObj) {
-        this.driveObject = driveObj;
+    Vehicle(DriveStrategy driveObject) {
+        this.driveObject = driveObject;
     }
 
     public void drive() {
